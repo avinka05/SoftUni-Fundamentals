@@ -17,6 +17,7 @@ namespace Numbers
             }
             else
             Console.WriteLine(string.Join(" ",topNumbers));
+            //mundio e los i mi se kara che pisa bavno
             
             
         }
