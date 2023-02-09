@@ -74,7 +74,23 @@ namespace _02._Shopping_List
                     return;
                 }
             }
-           
+            static void Correct(List<string> list, string oldItem, string newItem)
+            {
+                if (list.Contains(oldItem))
+                {
+                    int index = list.FindIndex(i => i == oldItem);
+                    if (index != -1)
+                    {
+                        list.RemoveAt(index);
+                        list.Insert(index, newItem);
+                    }
+                    else
+                    {
+                        return;
+                    }
+                }
+            }
+          
 }
     }
 }
