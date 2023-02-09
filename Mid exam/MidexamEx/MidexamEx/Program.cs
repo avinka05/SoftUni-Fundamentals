@@ -52,6 +52,17 @@ namespace _02._Shopping_List
                 Print(list);
 
             }
+            static void Urgent(List<string> list, string item)
+            {
+                if (list.Contains(item))
+                {
+                    return;
+                }
+                else
+                {
+                    list.Insert(0, item);
+                }
+            }
            
 
 }
