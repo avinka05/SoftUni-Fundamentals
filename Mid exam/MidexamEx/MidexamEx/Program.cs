@@ -49,8 +49,10 @@ namespace _02._Shopping_List
                     }
                 }
 
-        }
-    }
+                Print(list);
+
+            }
+           
 
 }
     }
