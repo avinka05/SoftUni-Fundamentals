@@ -102,7 +102,10 @@ namespace _02._Shopping_List
                     return;
                 }
             }
-          
+            static void Print(List<string> list)
+            {
+                Console.WriteLine(string.Join(", ", list));
+            }
 
         }
     }
