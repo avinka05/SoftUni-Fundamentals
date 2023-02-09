@@ -63,8 +63,18 @@ namespace _02._Shopping_List
                     list.Insert(0, item);
                 }
             }
+            static void Unnecessary(List<string> list, string item)
+            {
+                if (list.Contains(item))
+                {
+                    list.Remove(item);
+                }
+                else
+                {
+                    return;
+                }
+            }
            
-
 }
     }
 }
