@@ -90,7 +90,23 @@ namespace _02._Shopping_List
                     }
                 }
             }
+            static void Rearrange(List<string> list, string item)
+            {
+                if (list.Contains(item))
+                {
+                    list.Remove(item);
+                    list.Add(item);
+                }
+                else
+                {
+                    return;
+                }
+            }
           
+
+        }
+    }
+
 }
     }
 }
