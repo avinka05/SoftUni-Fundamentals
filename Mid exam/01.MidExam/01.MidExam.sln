@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.MidExam", "01.MidExam\01
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MemoryGame", "03.MemoryGame\03.MemoryGame.csproj", "{FC5E1CB0-97E7-4E11-885B-65D7D622A5F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Lift", "02.Lift\02.Lift.csproj", "{5118C6A3-5FCA-4074-A50B-4D36F0181957}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FC5E1CB0-97E7-4E11-885B-65D7D622A5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC5E1CB0-97E7-4E11-885B-65D7D622A5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC5E1CB0-97E7-4E11-885B-65D7D622A5F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5118C6A3-5FCA-4074-A50B-4D36F0181957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5118C6A3-5FCA-4074-A50B-4D36F0181957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5118C6A3-5FCA-4074-A50B-4D36F0181957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5118C6A3-5FCA-4074-A50B-4D36F0181957}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
