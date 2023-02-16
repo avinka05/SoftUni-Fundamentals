@@ -12,7 +12,8 @@ namespace _01._Bonus_Scoring_System
             int additionalBonus = int.Parse(Console.ReadLine());
             double totalBonus;
 
-     
+            //The bonus is calculated with the following formula:
+            //{total bonus} = {attendance} / {numberOfLectures} * (5 + {additional bonus})
 
             List<double> points = new List<double>();
             double[] attendance = new double[numberOfStudents];
@@ -25,7 +26,7 @@ namespace _01._Bonus_Scoring_System
                 points.Add(totalBonus);
             }
 
-            
+            //find the max points list
             double maxPoints = points[0];
             for (int i = 0; i < points.Count; i++)
             {
