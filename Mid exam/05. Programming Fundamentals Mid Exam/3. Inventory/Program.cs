@@ -79,7 +79,7 @@ namespace _3._Inventory
 
             }
 
-            Console.WriteLine(string.Join(", ",items));
+         
         }
     }
 }
