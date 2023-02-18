@@ -86,7 +86,7 @@ namespace KaminoFactory
                             lss = data;
                             lssStart = index;
                         }
-                    }s
+                    }
                 }
                 index++;
             }
