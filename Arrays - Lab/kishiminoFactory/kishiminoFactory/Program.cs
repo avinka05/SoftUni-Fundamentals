@@ -8,11 +8,7 @@ namespace KaminoFactory
     {
         static void Main(string[] args)
         {
-            string input = string.Empty;
-            int length = int.Parse(Console.ReadLine());
-            int[] lss = new int[length];
-            int lssLength = int.MinValue, lssIndex = int.MinValue, lssSum = int.MinValue, lssStart = -1;
-            int index = 1;
+            
 
             while ((input = Console.ReadLine()) != "Clone them!")
             {
