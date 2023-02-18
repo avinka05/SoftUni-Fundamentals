@@ -78,7 +78,14 @@ namespace KaminoFactory
                     }
                     else if (currentIndex == lssIndex)
                     {
-                       
+                        if (data.Sum() > lssSum)
+                        {
+                            lssLength = currentLength;
+                            lssIndex = currentIndex;
+                            lssSum = data.Sum();
+                            lss = data;
+                            lssStart = index;
+                        }
                     }
                 }
                 index++;
