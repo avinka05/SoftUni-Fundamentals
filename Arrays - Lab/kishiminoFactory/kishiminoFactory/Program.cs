@@ -86,12 +86,13 @@ namespace KaminoFactory
                             lss = data;
                             lssStart = index;
                         }
-                    }
+                    }s
                 }
                 index++;
             }
 
-            
+            Console.WriteLine($"Best DNA sample {lssStart} with sum: {lssSum}.");
+            Console.WriteLine(string.Join(" ", lss));
         }
     }
 }
