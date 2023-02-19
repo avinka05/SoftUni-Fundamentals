@@ -17,7 +17,7 @@ namespace _02._Coffee_Lover
                 string[] tokens = command.Split();
                 string action = tokens[0];
 
-                switch (true)
+                switch (action)
                 {
                     case "Include":
                         string coffeeToInclude = tokens[1];
