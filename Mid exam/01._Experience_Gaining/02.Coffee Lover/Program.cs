@@ -64,7 +64,7 @@ namespace _02._Coffee_Lover
                 }
             }
             Console.WriteLine("Coffees:");
-            Console.WriteLine(string.Join(' ', coffee));
+           
 
 
         }
