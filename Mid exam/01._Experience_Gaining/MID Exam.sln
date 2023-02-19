@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01._Experience_Gaining", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Coffee Lover", "02.Coffee Lover\02.Coffee Lover.csproj", "{5D76CA93-19F5-42FF-8C68-7B12AE766D1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Deck of Cards", "03.Deck of Cards\03.Deck of Cards.csproj", "{9B082300-F706-453A-8073-93FE68C04E54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5D76CA93-19F5-42FF-8C68-7B12AE766D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D76CA93-19F5-42FF-8C68-7B12AE766D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D76CA93-19F5-42FF-8C68-7B12AE766D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B082300-F706-453A-8073-93FE68C04E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B082300-F706-453A-8073-93FE68C04E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B082300-F706-453A-8073-93FE68C04E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B082300-F706-453A-8073-93FE68C04E54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
