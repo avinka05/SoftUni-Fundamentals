@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01._Experience_Gaining", "01._Experience_Gaining\01._Experience_Gaining.csproj", "{8AC58D1B-0FFF-4F6B-B041-73ABE090BBBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Coffee Lover", "02.Coffee Lover\02.Coffee Lover.csproj", "{5D76CA93-19F5-42FF-8C68-7B12AE766D1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AC58D1B-0FFF-4F6B-B041-73ABE090BBBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC58D1B-0FFF-4F6B-B041-73ABE090BBBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC58D1B-0FFF-4F6B-B041-73ABE090BBBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC58D1B-0FFF-4F6B-B041-73ABE090BBBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D76CA93-19F5-42FF-8C68-7B12AE766D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D76CA93-19F5-42FF-8C68-7B12AE766D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D76CA93-19F5-42FF-8C68-7B12AE766D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D76CA93-19F5-42FF-8C68-7B12AE766D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB95D782-3ACE-4F3A-9355-89586802947D}
+	EndGlobalSection
+EndGlobal
