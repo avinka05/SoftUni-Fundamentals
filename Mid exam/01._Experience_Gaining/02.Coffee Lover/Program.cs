@@ -68,7 +68,12 @@ namespace _02._Coffee_Lover
 
 
         }
-       
+        static void Swap(int firstIndex, int secondIndex, List<string> numbers)
+        {
+            string temp = numbers[firstIndex]; ;
+            numbers[firstIndex] = numbers[secondIndex];
+            numbers[secondIndex] = temp;
+        }
     }
 
 }
