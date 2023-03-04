@@ -22,9 +22,9 @@ namespace _01._Count_Real_Numbers
                 values[number]++;
                     
             }
-            foreach (var (key,value) in values)
+            foreach (var number in values)
             {
-                Console.WriteLine($"{key} -> {value}");
+                Console.WriteLine($"{number.Key} -> {number.Value}");
             }
         }
     }
