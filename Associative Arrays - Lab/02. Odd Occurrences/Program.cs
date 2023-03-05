@@ -20,7 +20,7 @@ namespace _02._Odd_Occurrences
 
                 }
                 counts[currentWord]++;
-
+                
             }
             foreach (var item in counts)
             {
