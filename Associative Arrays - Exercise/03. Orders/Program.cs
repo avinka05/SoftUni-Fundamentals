@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace _03._Orders
 {
@@ -6,7 +8,26 @@ namespace _03._Orders
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var check = new Dictionary<string, List<decimal>>();
+
+            while (true)
+            {
+                string[] input = Console.ReadLine().Split(" ").ToArray();
+                if (input[0] == "buy")
+                {
+                    break;
+                }
+                string product = input[0];
+                decimal prise = decimal.Parse(input[1]);
+                decimal quantity = decimal.Parse(input[2]);
+
+                if (!check.ContainsKey(product))
+                {
+                    check[product] = new List<decimal>();
+                }
+
+
+            }
         }
     }
 }
