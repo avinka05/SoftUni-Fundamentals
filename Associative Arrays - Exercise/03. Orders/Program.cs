@@ -23,10 +23,19 @@ namespace _03._Orders
 
                 if (!check.ContainsKey(product))
                 {
-                    check[product] = new List<decimal>();
+                    check[product] = new List<decimal>() {prise,quantity };
                 }
+                else
+                {
+                    check[product][0] = prise;
+                    check[product][1] += quantity;
 
+                }
+            }
 
+            foreach (var item in check)
+            {
+                Console.WriteLine($"{item.Key} -> {item.Value[0]*item.Value[1]}");
             }
         }
     }
