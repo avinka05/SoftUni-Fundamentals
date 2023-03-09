@@ -36,7 +36,7 @@ namespace _07._Company_Users
 
                 foreach (var value in item.Value)
                 {
-                    Console.WriteLine($"-- {value}");
+                    
                 }
             }
         }
