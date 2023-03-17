@@ -16,8 +16,6 @@ namespace _01._Valid_Usernames
 
             foreach (var item in validUserNames)
             {
-                Console.WriteLine(item);
-            }
    
         }
         
