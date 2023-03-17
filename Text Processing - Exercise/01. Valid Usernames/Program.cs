@@ -1,22 +1,25 @@
 ﻿using System;
 using System.Linq;
+using System.Text.RegularExpressions;
 
-class Program
+namespace _01._Valid_Usernames
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.Write("Enter user names separated by commas: ");
-        string input = Console.ReadLine();
-        string[] usernames = input.Split(',')
-                                   .Select(username => username.Trim())
-                                   .Where(username => username.Length >= 3 && username.Length <= 16 &&
-                                                      username.All(c => char.IsLetterOrDigit(c) || c == '-' || c == '_'))
-                                   .ToArray();
-
-        Console.WriteLine("Valid user names:");
-        foreach (string username in usernames)
+        static void Main(string[] args)
         {
-            Console.WriteLine(username);
-        } 
+
+            string[] validUserNames = Console.ReadLine()
+                .Split(new string[] { ", " }, StringSplitOptions.RemoveEmptyEntries)
+                .Where(x =>( x.Length >= 3 && x.Length <= 16 )&& Regex.IsMatch(x, @"^[A-Za-z0-9_-]+$"))
+                .ToArray();
+
+            foreach (var item in validUserNames)
+            {
+                Console.WriteLine(item);
+            }
+   
+        }
+        
     }
 }

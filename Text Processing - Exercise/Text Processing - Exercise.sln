@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32802.440
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Valid Usernames", "01. Valid Usernames\01. Valid Usernames.csproj", "{52B58E23-9E1C-44D7-8D01-9FCEF0CFE799}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Valid Usernames", "01. Valid Usernames\01. Valid Usernames.csproj", "{3A4583FD-09EE-411C-90FE-5C20C3E098D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{52B58E23-9E1C-44D7-8D01-9FCEF0CFE799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52B58E23-9E1C-44D7-8D01-9FCEF0CFE799}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52B58E23-9E1C-44D7-8D01-9FCEF0CFE799}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52B58E23-9E1C-44D7-8D01-9FCEF0CFE799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A4583FD-09EE-411C-90FE-5C20C3E098D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A4583FD-09EE-411C-90FE-5C20C3E098D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A4583FD-09EE-411C-90FE-5C20C3E098D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A4583FD-09EE-411C-90FE-5C20C3E098D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {57D2599D-0EC2-44B4-A457-5D30D8825370}
+		SolutionGuid = {AF9ABAF4-1FE4-4B41-8406-3DC8CEF21FAB}
 	EndGlobalSection
 EndGlobal
