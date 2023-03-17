@@ -14,7 +14,10 @@ namespace _01._Valid_Usernames
                 .Where(x =>( x.Length >= 3 && x.Length <= 16 )&& Regex.IsMatch(x, @"^[A-Za-z0-9_-]+$"))
                 .ToArray();
 
-           
+            foreach (var item in validUserNames)
+            {
+                Console.WriteLine(item);
+            }
    
         }
         
