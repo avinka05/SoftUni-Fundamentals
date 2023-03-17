@@ -19,7 +19,7 @@ namespace _01._Valid_Usernames
                 Console.WriteLine(item);
             }
    
-        
+        }
         
     }
 }
