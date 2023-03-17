@@ -12,7 +12,7 @@ namespace _01._Valid_Usernames
             string[] validUserNames = Console.ReadLine()
                 .Split(new string[] { ", " }, StringSplitOptions.RemoveEmptyEntries)
                 .Where(x =>( x.Length >= 3 && x.Length <= 16 )&& Regex.IsMatch(x, @"^[A-Za-z0-9_-]+$"))
-                
+                .ToArray();
 
             foreach (var item in validUserNames)
             {
