@@ -12,11 +12,7 @@ namespace _03._Match_Dates
 
             var matches = Regex.Matches(text, pattern);
 
-            foreach (Match item in matches)
-            {
-                var groups = item.Groups;
-                Console.WriteLine($"Day: {groups["day"]}, Month: {groups["month"]}, Year: {groups["year"]}");
-            }
+         
         }
     }
 }
