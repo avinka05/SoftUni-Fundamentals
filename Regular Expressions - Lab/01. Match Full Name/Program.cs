@@ -13,7 +13,7 @@ namespace _01._Match_Full_Name
             var name = (@"\b[A-Z][a-z]+ [A-Z][a-z]+");
             var matches = Regex.Matches(input,name);
 
-            Console.WriteLine(string.Join(" ",matches));
+           
         }
     }
 }
