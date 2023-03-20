@@ -6,7 +6,12 @@ namespace _01._World_Tour
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string input = string.Empty;
+
+            while ((input=Console.ReadLine())!="travel")
+            {
+
+            }
         }
     }
 }
