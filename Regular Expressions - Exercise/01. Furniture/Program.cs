@@ -19,7 +19,7 @@ namespace _01._Furniture
                 Regex regex = new Regex(@">>(?<iteam>[A-Za-z]+)<<(?<price>\d+.\d+)!(?<quantity>\d)>>(?<iteam>[A-Za-z]+)<<(?<price>\d+(.\d+))!(?<quantity>\d)");
                 var match = regex.Match(input);
 
-                if (match)
+                if (match.Success)
                 {
                     var name = match.Groups["iteam"].Value;
                     var price = decimal.Parse(match.Groups["price"].Value);
