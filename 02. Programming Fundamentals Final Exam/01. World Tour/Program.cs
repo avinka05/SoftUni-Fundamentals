@@ -21,7 +21,7 @@ namespace _01._World_Tour
                         stops = stops.Insert(int.Parse(command[1]), command[2]);
                     }
 
-                    Console.WriteLine(stops);
+                   
                 }
                 //                •	"Remove Stop:{start_index}:{end_index}":
                 // Remove the elements of the string from the starting index to the end index(inclusive)
