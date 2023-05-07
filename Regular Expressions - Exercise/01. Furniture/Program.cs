@@ -25,11 +25,11 @@ namespace _01._Furniture
                     var price = decimal.Parse(match.Groups["price"].Value);
                     var quantity = decimal.Parse(match.Groups["quantity"].Value);
 
-                    items.Add(name);
-                    totalPrice += price * quantity;
                 }
             }
-          
+            Console.WriteLine($"Bought furniture:");
+            Console.WriteLine($"{string.Join(Environment.NewLine, items)}");
+            Console.WriteLine($"Total money spend: {totalPrice:F2}");
         }
     }
 }
