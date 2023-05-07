@@ -16,7 +16,7 @@ namespace _01._Furniture
             string input = string.Empty;
             while ((input = Console.ReadLine()) != "Purchase")
             {
-                Regex regex = new Regex(">>(?<iteam>[A-Za-z]+)<<(?<price>\d+.\d+)!(?<quantity>\d)>>(?<iteam>[A-Za-z]+)<<(?<price>\d+(.\d+))!(?<quantity>\d)");
+                Regex regex = new Regex(@">>(?<iteam>[A-Za-z]+)<<(?<price>\d+.\d+)!(?<quantity>\d)>>(?<iteam>[A-Za-z]+)<<(?<price>\d+(.\d+))!(?<quantity>\d)");
                 var match = regex.Match(input);
 
                 if (match.Success)
