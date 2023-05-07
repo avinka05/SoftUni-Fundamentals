@@ -29,9 +29,7 @@ namespace _01._Furniture
                     totalPrice += price * quantity;
                 }
             }
-            Console.WriteLine($"Bought furniture:");
-            Console.WriteLine($"{string.Join(Environment.NewLine, items)}");
-            Console.WriteLine($"Total money spend: {totalPrice:F2}");
+          
         }
     }
 }
