@@ -11,7 +11,7 @@ namespace _01._World_Tour
 
             while ((input=Console.ReadLine())!="Travel")
             {
-                string[] command=input.Split(");
+                string[] command=input.Split(":");
 
                 //•	"Add Stop:{index}:{string}":
                 if (command[0]=="Add Stop")
