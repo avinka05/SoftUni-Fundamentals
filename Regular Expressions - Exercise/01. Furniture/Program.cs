@@ -26,7 +26,7 @@ namespace _01._Furniture
                     var quantity = decimal.Parse(match.Groups["quantity"].Value);
 
                     items.Add(name);
-                   
+                    totalPrice += price * quantity;
                 }
             }
             Console.WriteLine($"Bought furniture:");
