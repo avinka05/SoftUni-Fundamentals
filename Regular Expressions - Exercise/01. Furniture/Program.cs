@@ -31,7 +31,7 @@ namespace _01._Furniture
             }
             Console.WriteLine($"Bought furniture:");
             Console.WriteLine($"{string.Join(Environment.NewLine, items)}");
-            Console.WriteLine($"Total money spend: {totalPrice:F2}");
+            Console.WriteLine($"Total money spend: {totalPrice:F2}")
         }
     }
 }
