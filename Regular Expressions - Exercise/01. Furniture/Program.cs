@@ -21,7 +21,7 @@ namespace _01._Furniture
 
                 if (match.Success)
                 {
-                    var name = match.Groups["iteam"].Value;
+                    var name = match.Groups["iteam"]
                     var price = decimal.Parse(match.Groups["price"].Value);
                     var quantity = decimal.Parse(match.Groups["quantity"].Value);
 
