@@ -12,7 +12,7 @@ namespace _05._Sum_Even_Numbers
 
             for (int i = 0; i < numbers.Length; i++)
             {
-                int currentNum = numbers[i];
+                int currentNum = numbers[];
                 if (currentNum % 2 == 0)
                 {
                     sum += currentNum;                   
