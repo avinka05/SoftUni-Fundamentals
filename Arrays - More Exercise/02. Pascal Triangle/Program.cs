@@ -15,6 +15,7 @@ namespace _02._Pascal_Triangle
             {
                 string[] tokens = input.Split(' ');
 
+                string command = tokens[0];
                 
 
                 if (command == "swap")
